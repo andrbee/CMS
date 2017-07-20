@@ -1,12 +1,12 @@
 <?php
 
-require "../core/App.php";
-require "../app/App.php";
-require "../core/App2.php";
+require "../app/ShopProduct.php";
 
-$app = new app\App();
+$product = new app\ShopProduct();
+$product2 = new app\ShopProduct();
+print $product->producerMainName;
+
+//var_dump($product);
 echo "<br>";
-$app1 = new core\App2();
-echo "<br>";
-$app2 = new core\App();
-echo "<br>";
+
+//var_dump($product2);
