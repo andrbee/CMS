@@ -3,10 +3,9 @@
 require "../app/ShopProduct.php";
 
 $product = new app\ShopProduct();
-$product2 = new app\ShopProduct();
-print $product->producerMainName;
+$product->producerMainName="Балашов";
+$product->producerFirstName="Андрей";
+echo $product->getProducer();
 
-//var_dump($product);
-echo "<br>";
 
-//var_dump($product2);
+

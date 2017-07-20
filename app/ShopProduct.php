@@ -6,4 +6,10 @@ class ShopProduct {
 	public $producerFirstName = "John";
 	public $price = 100;
 
+	
+
+	function getProducer(){
+		return $this->producerFirstName." ".$this->producerMainName;
+	}
+
 }
